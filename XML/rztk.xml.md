@@ -1,21 +1,30 @@
 ## Пример XML-файла
+
+yml
+
+
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
 <yml_catalog date="2011-07-20 14:58">
+
 <shop>
     <name>ABC</name>
-    <company>ABC inc.</company>
+    <company>ABC inc</company>
     <url>http://www.abc.ua/</url>
+
     <currencies>
         <currency id="UAH" rate="1"/>
         <currency id="USD" rate="25.5"/>
+        <currency id="EUR" rate="28.50"/>
+        <currency id="RUR" rate="0.31"/>
     </currencies>
+
+
     <categories>
         <category id="391">Куртки для мальчиков</category>
         <category id="245" rz_id="4639416">Аромадиффузоры</category>
     </categories>
-
 
     <offers>
         <offer id="19305" available="true">
@@ -32,7 +41,7 @@
         <stock_quantity>100</stock_quantity>
         <name>Куртка Abc clothes Scoperandom-HH 146 см Черная (1323280942900)</name>
         <description><![CDATA[
-<p>Одежда<b>Abc clothes</b> способствует развитию функций головного мозга за счет поощрения мелкой моторики.</p><p>В Abc <b>New Collection</b> будет особенно удобно лазать, прыгать, бегать.</p><p>За счет своей универсальноcти и многофункциональности, <b>Abc clothes</b> отлично подходит:</p><ul><li><b>Для весны</b></li><li><b>Для лета</b></li><li><b>Для ранней осени</b></li></ul><p><b>Состав:</b>• 92% полиэстер, 8%эластан, не токсичность подтверждена лабораторно.</p><p><b>Вес:</b> 305 г</p>]]></description>
+          <p>Одежда<b>Abc clothes</b> способствует развитию функций головного мозга за счет поощрения мелкой моторики.</p><p>В Abc <b>New Collection</b> будет особенно удобно лазать, прыгать, бегать.</p><p>За счет своей универсальноcти и многофункциональности, <b>Abc clothes</b> отлично подходит:</p><ul><li><b>Для весны</b></li><li><b>Для лета</b></li><li><b>Для ранней осени</b></li></ul><p><b>Состав:</b>• 92% полиэстер, 8%эластан, не токсичность подтверждена лабораторно.</p><p><b>Вес:</b> 305 г</p>]]></description>
         <param name="Рост">146 см</param>
         <param name="Сезон">Весна-Осень</param>
         <param name="Цвет">Черный</param>
