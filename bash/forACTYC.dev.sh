@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# bash <(curl -fLSs https://raw.githubusercontent.com/GitKitNet/exampl/main/bash/forACTYC.dev.sh)
+# wget https://raw.githubusercontent.com/GitKitNet/exampl/main/bash/forACTYC.dev.sh && chmod +x ./forACTYC.dev.sh && ./forACTYC.dev.sh
 
 function RUN() {
  script_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd -P)
