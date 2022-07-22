@@ -9,8 +9,8 @@ function RUN() {
 
  echo "----START----" && sleep 2;
  
- touch "file-${DATA}.txt"                        #Var 1
- #echo "" > "file-${DATA}.txt"        #VAR 2
+ touch "${script_dir}/TEMP/file-${DATA}.txt"                        #Var 1
+ #echo "" > "${script_dir}/TEMP/file-${DATA}.txt"        #VAR 2
  
  echo "------END------"
  ls -al "$script_dir/TEMP"
