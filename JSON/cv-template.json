@@ -1,0 +1,61 @@
+{
+ "basics": {
+  "name": "Yurii Antonov",
+  "label": "DevOps",
+  "photoSrc": "",
+  "summary": "Experienced developer with expertise in developing large-scale projects and rich web applications. \nExperienced in HTML5/CSS3 and ES6. Goal-oriented and driven team player. \n\nConstantly learn new tools and languages to stay current with industry trends.",
+  "email": "mymail@gmail.com",
+  "phone": "Phone",
+  "location": {
+   "address": "",
+   "postalCode": "",
+   "city": "City",
+   "countryCode": "Country Code",
+   "region": ""
+  },
+  "url": "https://",
+  "profiles": []
+ },
+ "work": [
+  {
+   "id": 0,
+   "name": "Company",
+   "url": "",
+   "position": "SysOps",
+   "startDate": "2000",
+   "endDate": "2000",
+   "summary": "Project Description",
+   "highlights": "Highlights of your work",
+   "technologies": "Technologies"
+  }
+ ],
+ "education": [
+  {
+   "id": 0,
+   "institution": "University",
+   "area": "Computer Science",
+   "studyType": "Master’s of Science",
+   "startDate": "2000",
+   "endDate": "2000"
+  }
+ ],
+ "skills": [
+  {
+   "name": "All skills",
+   "level": "Master",
+   "keywords": [
+    "React",
+    "Redux",
+    "TypeScript",
+    "Technologies\nNext\nNew line"
+   ]
+  }
+ ],
+ "languages": [
+  {
+   "id": 1,
+   "language": "English",
+   "fluency": "Advanced"
+  }
+ ]
+}
